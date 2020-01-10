@@ -3,6 +3,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var routes = require('./routes');
+var models = require('./models');
 
 const hostname = "127.0.0.1";
 const port = 4040;
