@@ -1,3 +1,4 @@
 module.exports = {
-  friends : require('./friends')
+  friends : require('./friends'),
+  user : require('./user')
 }

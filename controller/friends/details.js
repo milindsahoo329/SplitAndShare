@@ -1,10 +1,9 @@
 const Joi = require('joi');
-const models = require("../../models");
 const friendsDao = require("../../dao").friends;
 
 var getFriendDetails = function (req, res, next) {
   return new Promise( async function ( resolve, reject ) {
-    
+
     const schema = Joi.object().keys({
       friend_id : Joi.string().required()
     });
